@@ -1101,3 +1101,31 @@ footer {
   background-position: right;
   transition: .5s;
 }
+
+.head--menu-list-item {
+  margin-right: 31px;
+  font-size: 18px;
+  text-transform: uppercase;
+  a {
+    position: relative;
+    text-decoration: none;
+    font-weight: 800;
+    color: #082a40;
+    letter-spacing: 2.7px;
+  }
+}
+.head--menu-list-item a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f5af19;
+  content: "";
+  transition: width 0.3s ease-out;
+  }
+
+  .head--menu-list-item a:hover:after,
+  .head--menu-list-item a:focus:after {
+  width: 100%;
+  }
