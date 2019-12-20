@@ -90,9 +90,19 @@ header {
   letter-spacing: 2.4px;
   border-radius: 40px;
   background-color: #37538c;
-  background-image: linear-gradient(to right, #ff256d 0%, #ff8400 100%);
+  background: linear-gradient(to left, #f5af19,  #f12711, #f5af19);
+  background-size: 200%;
+  transition: .5s;
   border: none;
   padding: 0;
+}
+.button-general:hover {
+  background-position: right;
+  transition: .5s;
+}
+.transparent:hover {
+  background: #ff3d505b !important;
+  transition: .5s;
 }
 .head--menu-list {
   list-style-type: none;
@@ -106,12 +116,29 @@ header {
   font-size: 18px;
   text-transform: uppercase;
   a {
+    position: relative;
     text-decoration: none;
     font-weight: 800;
     color: #082a40;
     letter-spacing: 2.7px;
   }
 }
+.head--menu-list-item a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f5af19;
+  content: "";
+  transition: width 0.3s ease-out;
+  }
+  
+  .head--menu-list-item a:hover:after,
+  .head--menu-list-item a:focus:after {
+  width: 100%;
+  }
+
 .head--img {
   max-width: 100%;
 }
@@ -280,7 +307,7 @@ header {
 }
 
 .exp-block--sub {
-  color: #082a40;
+  color: #fff;
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 1.8px;
@@ -326,6 +353,7 @@ header {
     url(../assets/[4]_follows_notification.png) bottom left no-repeat;
 }
 .add-mar {
+  color: #fff;
   margin: 0 0 14px 0;
 }
 .exp-block--content-img {
@@ -372,6 +400,7 @@ header {
   cursor: pointer;
 }
 .pricing-button {
+  color: #082a40;
   width: 380px;
   height: 80px;
 }
@@ -394,7 +423,7 @@ header {
 }
 .main-pricing--price {
   position: relative;
-  color: #000000;
+  color: #fff;
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 7.15px;
@@ -403,7 +432,7 @@ header {
     position: absolute;
     left: -25px;
     top: 9px;
-    color: #000000;
+    color: #fff;
     font-size: 30px;
     font-weight: 700;
   }
@@ -437,6 +466,9 @@ header {
   justify-content: center;
   height: 133px;
   background-image: linear-gradient(45deg, #cd7f32 0%, #ccbcab 100%);
+  .main-pricing--title {
+    color: #fff;
+  }
 }
 .main-pricing--main {
   padding-top: 47px;
@@ -475,6 +507,9 @@ header {
   justify-content: center;
   background: url(../assets/[6]_like_notification_2.png) bottom right no-repeat;
   min-height: 1200px;
+  .title--general {
+    color: #fff;
+  }
 }
 .client-testimonials--item {
   display: flex;
@@ -1059,73 +1094,3 @@ footer {
     max-width: 1014px;
   }
 }
-
-.button-general {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 2.4px;
-  border-radius: 40px;
-  background-color: #37538c;
-  background: linear-gradient(to left, #f12711, #f5af19,  #f12711);
-  background-size: 200%;
-  transition: .5s;
-  border: none;
-  padding: 0;
-}
-.button-general:hover {
-  background-position: right;
-  transition: .5s;
-}
-.transparent:hover {
-  background: #ff3d505b !important;
-  transition: .5s;
-}
-
-.button-general {
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 2.4px;
-  border-radius: 40px;
-  background-color: #37538c;
-  background: linear-gradient(to left, #f5af19,  #f12711, #f5af19);
-  background-size: 200%;
-  transition: .5s;
-  border: none;
-  padding: 0;
-}
-.button-general:hover {
-  background-position: right;
-  transition: .5s;
-}
-
-.head--menu-list-item {
-  margin-right: 31px;
-  font-size: 18px;
-  text-transform: uppercase;
-  a {
-    position: relative;
-    text-decoration: none;
-    font-weight: 800;
-    color: #082a40;
-    letter-spacing: 2.7px;
-  }
-}
-.head--menu-list-item a:after {
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: #f5af19;
-  content: "";
-  transition: width 0.3s ease-out;
-  }
-
-  .head--menu-list-item a:hover:after,
-  .head--menu-list-item a:focus:after {
-  width: 100%;
-  }
