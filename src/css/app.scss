@@ -40,7 +40,7 @@ textarea:focus {
 }
 
 .main--wrapper {
-  min-width: 1050px;
+  // min-width: 500px;
   width: 100%;
   margin: 0 auto;
   background: #fafafa;
@@ -52,6 +52,7 @@ header {
   background-size: cover;
   padding: 27px 0 0 0;
   height: 1110px;
+  // min-width: 500px;
 }
 .head--wrap {
   max-width: 2300px;
@@ -90,19 +91,19 @@ header {
   letter-spacing: 2.4px;
   border-radius: 40px;
   background-color: #37538c;
-  background: linear-gradient(to left, #f5af19,  #f12711, #f5af19);
+  background: linear-gradient(to left, #f5af19, #f12711, #f5af19);
   background-size: 200%;
-  transition: .5s;
+  transition: 0.5s;
   border: none;
   padding: 0;
 }
 .button-general:hover {
   background-position: right;
-  transition: .5s;
+  transition: 0.5s;
 }
 .transparent:hover {
   background: #ff3d505b !important;
-  transition: .5s;
+  transition: 0.5s;
 }
 .head--menu-list {
   list-style-type: none;
@@ -132,12 +133,12 @@ header {
   background-color: #f5af19;
   content: "";
   transition: width 0.3s ease-out;
-  }
-  
-  .head--menu-list-item a:hover:after,
-  .head--menu-list-item a:focus:after {
+}
+
+.head--menu-list-item a:hover:after,
+.head--menu-list-item a:focus:after {
   width: 100%;
-  }
+}
 
 .head--img {
   max-width: 100%;
@@ -251,7 +252,8 @@ header {
   align-items: center;
   background: url(../assets/2-layers.png) center no-repeat;
   background-size: cover;
-  height: 1200px;
+  height: auto;
+  padding: 100px 0;
 }
 .income-blocks--wrap {
   display: flex;
@@ -336,7 +338,8 @@ header {
 }
 .how-works--explanation-wrap {
   background: linear-gradient(-125deg, #ff689f 0%, #ffc12e 100%);
-  height: 1100px;
+  height: auto;
+  padding: 100px 0;
 }
 .explanation-wrap {
   max-width: 1660px;
@@ -370,6 +373,12 @@ header {
   width: 770px;
   padding: 0;
 }
+.client-testimonials--wrapper .transparent {
+  color: #fff;
+}
+.explanation-wrap .transparent {
+  color: #fff;
+}
 .exp-block--img {
   margin: 114px 0px 0 161px;
   max-width: 100%;
@@ -382,7 +391,8 @@ header {
   justify-content: center;
   background: url(../assets/2-l.png) center no-repeat;
   background-size: cover;
-  height: 1200px;
+  height: auto;
+  padding: 100px 0;
 }
 .main-package-sub {
   color: #082a40;
@@ -403,6 +413,9 @@ header {
   color: #082a40;
   width: 380px;
   height: 80px;
+}
+.main-package-pricing--wrap .pricing-button:first-of-type {
+  color: #fff;
 }
 .pricing-group {
   margin-top: 29px;
@@ -446,6 +459,7 @@ header {
   font-size: 17px;
   font-weight: 700;
   letter-spacing: 2px;
+  text-align: center;
   margin: 0;
   &.grey-it {
     background-color: #e5e5e5;
@@ -506,7 +520,8 @@ header {
   align-items: center;
   justify-content: center;
   background: url(../assets/[6]_like_notification_2.png) bottom right no-repeat;
-  min-height: 1200px;
+  height: auto;
+  padding: 100px 0;
   .title--general {
     color: #fff;
   }
@@ -568,13 +583,14 @@ header {
 .main-faq--wrap {
   background: url(../assets/3-layers.png) center no-repeat;
   background-size: cover;
-  min-height: 1200px;
+  height: auto;
+  padding: 120px 0 60px 0;
 }
 .main-faq--content-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 60px;
+  padding-bottom: 0;
 }
 .main-faq--head {
   color: #082a40;
@@ -582,7 +598,7 @@ header {
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 3.6px;
-  padding: 120px 0 72px 0;
+  padding: 0 0 72px 0;
   margin: 0;
 }
 .main-faq--wrap-wrap {
@@ -595,6 +611,7 @@ header {
   font-weight: 800;
   letter-spacing: 1.5px;
   margin: 0 0 24px 0;
+  max-width: 437px;
   line-height: 1;
 }
 .main-faq--content-text {
@@ -612,7 +629,8 @@ header {
 .main-contactus--wrap {
   background: url(../assets/2-la.png) center no-repeat;
   background-size: cover;
-  min-height: 1200px;
+  height: auto;
+  padding: 200px 20px;
 }
 .main-contactus--wrapper {
   max-width: 1300px;
@@ -630,7 +648,7 @@ header {
   font-weight: 900;
   letter-spacing: 3.6px;
   margin: 0;
-  padding: 200px 0 33px 0;
+  padding: 0 0 33px 0;
   line-height: 1.1;
 }
 .main-contactus--sub {
@@ -751,7 +769,7 @@ footer {
     margin: 60px 0 0 0;
   }
   .client-testimonials--wrapper {
-    min-height: 865px;
+    padding: 70px 0;
   }
   .client-testimonials--content {
     max-width: 1223px;
@@ -789,9 +807,6 @@ footer {
   .income-butt {
     margin: 50px 0 0 94px;
   }
-  .income--wrapper {
-    height: 1040px;
-  }
   .exp-block--sub {
     font-size: 31px;
   }
@@ -821,8 +836,11 @@ footer {
     width: 240px;
     height: 60px;
   }
+  .footer-butt {
+    width: 283px;
+  }
   .how-works--explanation-wrap {
-    height: 960px;
+    padding: 60px 0;
   }
   .exp-block--content {
     margin: 38px 0 0 0;
@@ -841,7 +859,7 @@ footer {
     margin-top: 30px;
   }
   .main-package-pricing--wrap {
-    height: 1110px;
+    padding: 70px 0;
   }
   .main-package-pricing--plans {
     margin: 46px 0 44px 0;
@@ -850,13 +868,13 @@ footer {
     max-width: 1107px;
   }
   .main-faq--head {
-    padding: 37px 0 45px 0;
+    padding: 0 0 45px 0;
   }
   .main-faq--content-wrap {
     padding-bottom: 0;
   }
   .main-faq--wrap {
-    min-height: 974px;
+    padding: 100px 0 50px 0;
   }
   .main-faq--content-text {
     margin: 0 0 49px 0;
@@ -866,10 +884,10 @@ footer {
   }
   .contactus-header {
     font-size: 62px;
-    padding: 67px 0 33px 0;
+    padding: 0 0 33px 0;
   }
   .main-contactus--wrap {
-    min-height: 900px;
+    padding: 100px 20px;
   }
   footer {
     min-height: 300px;
@@ -929,6 +947,9 @@ footer {
   .main-faq--head {
     font-size: 62px;
   }
+  .income--wrapper {
+    padding: 63px 0;
+  }
 }
 @media screen and (max-width: 1300px) {
   .income--cont-sub {
@@ -939,7 +960,7 @@ footer {
     margin-top: 36px;
   }
   .income--wrapper {
-    height: 884px;
+    padding: 50px 0;
   }
   .income--content-img {
     width: 58px;
@@ -957,7 +978,7 @@ footer {
     font-size: 20px;
   }
   .how-works--explanation-wrap {
-    height: 810px;
+    padding: 50px 20px;
   }
   .client-testimonials--item {
     width: 310px;
@@ -981,7 +1002,7 @@ footer {
     max-width: 974px;
   }
   .client-testimonials--wrapper {
-    min-height: 810px;
+    padding: 50px 0;
   }
   .income-butt {
     margin: 50px 0 0 67px;
@@ -1027,7 +1048,7 @@ footer {
     height: 115px;
   }
   .main-package-pricing--wrap {
-    height: 970px;
+    padding: 50px 0;
   }
   .main-package-pricing--plans {
     width: 999px;
@@ -1044,24 +1065,21 @@ footer {
     max-width: 923px;
   }
   .main-faq--wrap {
-    min-height: 847px;
+    padding: 60px 0 40px 0;
   }
   .main-faq--head {
-    padding: 34px 0 38px 0;
+    padding: 0 0 38px 0;
   }
   .main-contactus--wrapper {
     max-width: 910px;
   }
   .contactus-header {
     font-size: 51px;
-    padding: 55px 0 27px 0;
+    padding: 0 0 27px 0;
   }
   .main-contactus--sub {
     max-width: 813px;
     font-size: 26px;
-  }
-  .main-contactus--wrap {
-    min-height: 796px;
   }
   .main-contactus--inputs-area {
     max-width: 610px;
@@ -1081,10 +1099,10 @@ footer {
   }
   .foot--wrap {
     padding-top: 35px;
-}
-footer {
-  min-height: 230px;
-}
+  }
+  footer {
+    min-height: 230px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .head--menu-list-item {
@@ -1093,4 +1111,666 @@ footer {
   .main-advantages {
     max-width: 1014px;
   }
+
+  .foot-menu .head--menu-list-item {
+    font-size: 13px;
+  }
+
+  .feat-advantage img {
+    margin-right: 8px;
+  }
+  .main-advantages {
+    max-width: 980px;
+  }
+  .title--general {
+    line-height: 1;
+  }
+
+  .main-package-pricing--plans {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 38px 0 2px 0;
+  }
+  .main-pricing--plan {
+    margin: 0 20px 40px 20px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    height: 540px;
+  }
+  .title--general {
+    font-size: 33px;
+    max-width: 490px;
+    letter-spacing: 2px;
+  }
+  .subtitle--general {
+    font-size: 25px;
+    margin: 9px 0 0 0;
+    letter-spacing: 1px;
+  }
+  .par--general {
+    max-width: 485px;
+    font-size: 18px;
+    margin: 21px 0 0 0;
+  }
+  .button--group {
+    width: 445px;
+    padding-right: 45px;
+  }
+  .head--logo-img {
+    max-width: 50%;
+  }
+  .button-general {
+    width: 180px;
+    height: 40px;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+  .head--wrap {
+    height: 65px;
+  }
+  .head--menu-list-item a {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+
+  .features--brands {
+    max-width: 740px;
+  }
+  .features--title {
+    font-size: 34px;
+    margin: 28px 0 0 0;
+  }
+  .feat-brand {
+    width: 170px;
+  }
+
+  footer {
+    min-height: 130px;
+  }
+  .foot--wrap {
+    padding-top: 15px;
+  }
+  .footer-copy {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .feat-advantage {
+    font-size: 17px;
+  }
+  .feat-advantage img {
+    width: 60px;
+  }
+  .main-advantages {
+    margin: 0 20px;
+  }
+
+  .exp-block--img {
+    margin: 89px 0px 0 0;
+  }
+  .how-works--explanation-wrap .button--group.exp-group {
+    width: 500px;
+  }
+  .exp-block--cont-text {
+    max-width: 493px;
+  }
+
+  .client-testimonials--wrapper .button--group.exp-group {
+    width: 460px;
+  }
+  .client-testimonials--content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .client-testimonials--item {
+    margin: 88px 20px 20px 20px;
+  }
+  .client-testimonials--image {
+    top: -56px;
+  }
+  .client-testimonials--wrapper .title--general {
+    margin-bottom: -75px;
+  }
+
+  .main-faq--wrap {
+    padding: 50px 0 0 0;
+  }
+  .main-faq--content-wrap {
+    justify-content: center;
+  }
+  .main-faq--head {
+    text-align: center;
+  }
+  .main-faq--content-head {
+    font-size: 30px;
+  }
+  .main-faq--content-text {
+    font-size: 24px;
+  }
+  .main-faq--content {
+    margin: 0 20px;
+  }
+
+  .main-contactus--wrap {
+    padding: 50px 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .explanation-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .explanation-wrap .button--group.exp-group {
+    margin: 15px auto;
+  }
+  .explanation-wrap .title--general {
+    text-align: center;
+    max-width: initial;
+  }
+
+  .main-package-pricing--wrap .main-package-sub {
+    text-align: center;
+    margin: 15px 15px 0 15px;
+  }
+  .main-pricing--bottom-text {
+    text-align: center;
+    margin: 0 15px;
+  }
+
+  .main-faq--head {
+    font-size: 48px;
+    padding: 0 0 33px 0;
+  }
+}
+@media screen and (max-width: 830px) {
+  .foot--wrap .head--logo {
+    margin: 0 0 0 35px;
+  }
+
+  .feat-advantage {
+    font-size: 15px;
+  }
+  .main-advantages {
+    padding: 20px 0;
+  }
+
+  .income--cont-sub {
+    font-size: 19px;
+    max-width: 331px;
+  }
+  .income--cont-text {
+    max-width: 253px;
+    font-size: 16px;
+    margin: 12px 0 0 0;
+  }
+  .income--cont-item {
+    margin-top: 18px;
+  }
+  .income--content {
+    min-width: 420px;
+  }
+}
+@media screen and (max-width: 808px) {
+  .head--logo {
+    width: 41px;
+    margin: 0 0 0 20px;
+  }
+  .head--logo-img {
+    max-width: 100%;
+  }
+  .header-button {
+    margin: 0 20px 0 0;
+  }
+  .foot--wrap .head--logo {
+    margin: 0 0 0 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: 460px;
+  }
+  .head--content-wrap {
+    width: 94%;
+  }
+  .title--general {
+    font-size: 28px;
+    max-width: 400px;
+    letter-spacing: 1px;
+  }
+  .subtitle--general {
+    font-size: 21px;
+  }
+  .par--general {
+    max-width: 384px;
+    font-size: 16px;
+  }
+  .button--group {
+    width: 407px;
+    padding-right: 12px;
+  }
+
+  .features--title {
+    font-size: 22px;
+    margin: 13px 0 0 0;
+  }
+  .feat-brand {
+    width: 100px;
+  }
+  .features--brands {
+    max-width: 470px;
+    margin: 19px 0 4px 0;
+  }
+
+  .main-advantages {
+    max-width: 710px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feat-advantage {
+    min-width: 250px;
+    margin: 5px 0;
+  }
+
+  .contactus-header {
+    font-size: 40px;
+    line-height: 1;
+    max-width: 510px;
+    padding: 0 0 18px 0;
+  }
+  .main-contactus--sub {
+    max-width: 457px;
+    font-size: 23px;
+  }
+  .main-contactus--inputs-area {
+    max-width: 590px;
+    margin: 38px 0 0px 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header-button {
+    position: absolute;
+    right: 0;
+    top: 100px;
+  }
+  .head--content {
+    z-index: 12;
+  }
+  .head-img--wrap {
+    position: absolute;
+    width: 284px;
+    opacity: 0.3;
+    top: 100px;
+    right: 24%;
+  }
+  .head--content-wrap {
+    justify-content: end;
+  }
+  header {
+    height: 427px;
+  }
+  .foot--wrap {
+    position: relative;
+  }
+  .button-general.footer-butt {
+    top: 63px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+  footer {
+    min-height: 160px;
+  }
+
+  .explanation-wrap .exp-block--sub {
+    font-size: 29px;
+    text-align: center;
+  }
+  .exp-block--img {
+    margin: 37px 0px 0 0;
+  }
+  .exp-block--cont-cont {
+    margin-bottom: 22px;
+  }
+  .how-works--explanation-wrap .button--group.exp-group {
+    width: 420px;
+  }
+  .exp-block--image {
+    width: 200px;
+  }
+  .how-works--explanation-wrap {
+    padding: 24px 20px;
+  }
+
+  .main-contactus--input-block {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .main-contactus--input {
+    margin-bottom: 21px;
+  }
+  .main-contactus--inputs-area {
+    max-width: 377px;
+  }
+  .main-contactus--wrapper {
+    width: auto;
+    max-width: fit-content;
+    margin: 0 auto;
+  }
+  .main-contactus--input-textarea {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  header {
+    height: 386px;
+  }
+  .button-general {
+    width: 143px;
+    height: 30px;
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+  .head--content {
+    margin: 0;
+  }
+  .button--group {
+    width: 391px;
+    margin-top: 25px;
+  }
+  .head--content-wrap {
+    margin: -41px auto 0 auto;
+  }
+  footer {
+    min-height: 140px;
+  }
+  .footer-copy {
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .feat-advantage {
+    min-width: 221px;
+  }
+
+  .income-butt {
+    margin: 18px 0 0 67px;
+  }
+
+  .main-package-pricing--wrap {
+    padding: 35px 0;
+  }
+
+  .client-testimonials--wrapper .button--group.exp-group {
+    width: 400px;
+    margin-top: -20px;
+  }
+  .client-testimonials--wrapper {
+    padding: 40px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  header {
+    height: 350px;
+  }
+  .head--wrap {
+    height: 47px;
+  }
+  .title--general {
+    font-size: 24px;
+  }
+  .head--menu-list {
+    position: absolute;
+    top: 47px;
+    left: 0;
+    right: 0;
+    width: max-content;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  .head--content-wrap {
+    margin: -26px auto 0 auto;
+  }
+  .header-button {
+    position: inherit;
+  }
+  .head--menu-list-item a {
+    font-size: 9px;
+  }
+  .head--logo {
+    width: 30px;
+    margin: 0 0 0 10px;
+  }
+  .button--group {
+    width: 310px;
+  }
+  .head-img--wrap {
+    right: 6%;
+  }
+
+  .features--title {
+    margin: 13px 10px 0 10px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .features--brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .feat-brand {
+    width: 150px;
+  }
+  .head--menu-list-item {
+    margin-right: 11px;
+  }
+  .foot--wrap .head--logo {
+    position: absolute;
+    top: 50px;
+    margin: 0 0 0 25px;
+  }
+  .button-general.footer-butt {
+    top: 34px;
+    margin: 0 15px 0 0;
+  }
+  .foot--wrap .head--menu-list {
+    top: 20px;
+    margin: 0 auto;
+  }
+  footer {
+    min-height: 127px;
+  }
+
+  .how-works--explanation-wrap .button--group.exp-group {
+    width: 314px;
+  }
+  .exp-block--content-img {
+    margin: 0px 14px 0 0px;
+    width: 19px;
+  }
+  .exp-block--cont-text {
+    font-size: 17px;
+  }
+  .explanation-wrap .exp-block--sub {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 456px) {
+  .head--content-wrap {
+    margin: -18px auto 0 auto;
+  }
+  .title--general {
+    line-height: 1;
+  }
+  .par--general {
+    margin: 3px 0 0 0;
+  }
+
+  .income--content .title--general {
+    line-height: 1;
+    text-align: center;
+  }
+  .income--content .income--content-sub {
+    text-align: center;
+  }
+  .income--content-img {
+    width: 44px;
+    margin: 70px 0 0 0;
+  }
+  .income--cont-sub {
+    text-align: center;
+    margin-left: -54px;
+    max-width: 292px;
+  }
+  .income--cont-item {
+    justify-content: center;
+  }
+  .income--cont-text {
+    margin: 12px 0 0 20px;
+  }
+  .income-butt {
+    display: block;
+    margin: 18px auto 0 auto;
+  }
+  .income--wrapper {
+    padding: 30px 10px;
+  }
+  .income--content {
+    min-width: auto;
+    margin: 0 auto;
+  }
+  .income--void {
+    flex-grow: 0;
+  }
+
+  .exp-block--content {
+    margin: 20px 0 0 0;
+  }
+  .exp-block--img {
+    max-width: 100%;
+  }
+
+  .main-pricing--plan {
+    width: 286px;
+    margin: 0 14px 40px 14px;
+  }
+  .main-package-pricing--wrap .button--group {
+    padding-right: 0;
+  }
+
+  .client-testimonials--wrapper .button--group.exp-group {
+    width: 310px;
+  }
+
+  .main-contactus--wrap .button--group {
+    width: 100%;
+  }
+  .main-contactus--wrap {
+    padding: 30px 15px;
+  }
+}
+@media screen and (max-width: 350px) {
+  header {
+    min-height: 367px;
+  }
+  .head--logo {
+    margin: 0 0 0 5px;
+  }
+  .header-button {
+    margin: 0 5px 0 0;
+  }
+  .head--content {
+    margin: 0 5px;
+  }
+  .title--general {
+    font-size: 22px;
+  }
+  .head--content-wrap {
+    width: 100%;
+  }
+  .par--general {
+    max-width: 280px;
+  }
+  .head--menu-list-item {
+    margin-right: 8px;
+  }
+  .head--menu-list-item a {
+    letter-spacing: 0;
+  }
+  .button--group {
+    width: 298px;
+  }
+  .feat-brand {
+    width: 173px;
+  }
+  .foot--wrap .head--logo {
+    top: 29px;
+    margin: 0 0 0 5px;
+  }
+  .button-general.footer-butt {
+    top: 15px;
+    margin: 0 5px 0 0;
+  }
+  footer {
+    min-height: 98px;
+  }
+  .foot--wrap .head--menu-list {
+    top: 8px;
+  }
+
+  .income--content .income--content-sub {
+    font-size: 22px;
+    margin: 8px 0 0 0;
+  }
+  .income--cont-sub {
+    font-size: 13px;
+  }
+  .income--cont-text {
+    margin: 8px 0 0 20px;
+  }
+  .income--content-img {
+    margin: 43px 0 0 0;
+  }
+
+  .exp-block--cont-text {
+    max-width: 228px;
+  }
+  .exp-block--cont-sub {
+    max-width: 228px;
+  }
+  .exp-block--content-item {
+    width: 280px;
+    margin: 0 auto;
+  }
+  .how-works--explanation-wrap .button--group.exp-group {
+    width: 293px;
+  }
+  .main-pricing--plan {
+    width: 275px;
+  }
+
+  .client-testimonials--text-content {
+    font-size: 16px;
+    max-width: 218px;
+  }
+  .client-testimonials--email {
+    font-size: 19px;
+    text-align: center;
+  }
+
+  .main-contactus--input-textarea {
+    width: 286px;
+  }
+  .client-testimonials--wrapper .button--group.exp-group {
+    width: 287px;
+  }
+}
+@media screen and (max-width: 320px) {
 }

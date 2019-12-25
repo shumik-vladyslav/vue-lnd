@@ -235,7 +235,7 @@
                 </div>
             </div>
 
-            <div class="client-testimonials--wrap">
+             <div class="client-testimonials--wrap">
                 <div class="client-testimonials--wrapper">
                     <h1 class="title--general">Client Testimonials</h1>
                     <div class="client-testimonials--content">
