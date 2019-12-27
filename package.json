@@ -1,9 +1,9 @@
 {
   "name": "q-p1",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Quasar App",
-  "cordovaId": "org.cordova.quasar.app",
+  "description": "Grow your audience. Become viral.",
+  "productName": "Viral Growth",
+  "cordovaId": "com.viralgrowth.co.uk",
   "capacitorId": "",
   "author": "",
   "private": true,

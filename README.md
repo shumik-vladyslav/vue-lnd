@@ -1,4 +1,4 @@
-# Quasar App (q-p1)
+# Viral Growth (q-p1)
 
 A Quasar Framework app
 

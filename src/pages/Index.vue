@@ -19,12 +19,10 @@
             </div>
             <div class="head--content-wrap">
                 <div class="head--content">
-                    <h1 class="title--general">Leading Innovation in
-                        Growth Hacking Solutions</h1>
-                    <h2 class="subtitle--general">Placeholder Sub Header Information etc</h2>
-                    <p class="par--general">A short summary of what we do should be written here.
-                        Keep it brief to get the message across to the customer
-                        and make them keen to further look for information.</p>
+                    <h1 class="title--general">Specialists in
+                        growth hacking solutions</h1>
+                    <h2 class="subtitle--general">Grow your audience. Become viral.</h2>
+                    <p class="par--general">We can help you establish your online presence and grow your business.</p>
                     <div class="button--group">
                         <button type="button" class="button-general button-group">BUILD YOUR BRAND</button>
                         <button type="button" class="button-general button-group transparent">LEARN MORE</button>
@@ -75,10 +73,8 @@
                                     <img src="../assets/[3]_Audience-Grow-Step-125172118.png" class="income--content-img" alt="">
                                 </p>
                                 <div class="income--cont-cont">
-                                    <h3 class="income--cont-sub">PLACEHOLDER TITLE FOR THIS
-                                            STEP OF CREATING NEW INCOME</h3>
-                                    <p class="income--cont-text">Placeholder paragraph for this step on creating a new
-                                            source of income through Viral Growth.</p>
+                                    <h3 class="income--cont-sub">Brand Yourself</h3>
+                                    <p class="income--cont-text">In order to establish an online presence, you will need to think of yourself as a brand. This means you need something to represent you and a place to send people to. Ideally you'd want to create an attractive landing page no matter what business you're in. This will allow you to build up an email list/client base and utilize the power of your own data.</p>
                                 </div>
                             </div>
                             <div class="income--cont-item">
@@ -86,10 +82,8 @@
                                     <img src="../assets/[3]_Audience-Grow-Step-625172018.png" class="income--content-img" alt="">
                                 </p>
                                 <div class="income--cont-cont">
-                                    <h3 class="income--cont-sub">PLACEHOLDER TITLE FOR THIS
-                                            STEP OF CREATING NEW INCOME</h3>
-                                    <p class="income--cont-text">Placeholder paragraph for this step on creating a new
-                                            source of income through Viral Growth.</p>
+                                    <h3 class="income--cont-sub">Grow your Audience</h3>
+                                    <p class="income--cont-text">You will need to grow your audience. If nobody knows about you or your brand, nobody will be willing to spend money on your services or products. We are in the era of social media where most of the internet's traffic dwells. Fortunately, we have built tools to leverage this traffic by growing Instagram accounts.</p>
                                 </div>
                             </div>
                             <div class="income--cont-item">
@@ -97,10 +91,8 @@
                                     <img src="../assets/[3]_Audience-Grow-Step-225172051.png" class="income--content-img" alt="">
                                 </p>
                                 <div class="income--cont-cont">
-                                    <h3 class="income--cont-sub">PLACEHOLDER TITLE FOR THIS
-                                            STEP OF CREATING NEW INCOME</h3>
-                                    <p class="income--cont-text">Placeholder paragraph for this step on creating a new
-                                            source of income through Viral Growth.</p>
+                                    <h3 class="income--cont-sub">Monetise Your Audience</h3>
+                                    <p class="income--cont-text">You can make money from your audience by selling products/services as a brand, if you're an influencer you can sell content. We recommend our partner <a href="https://litty.vip">Litty</a> to help you with this part.</p>
                                 </div>
                             </div>
                             <button type="button" class="button-general button-group income-butt">CHOOSE PACKAGE</button>
@@ -113,16 +105,16 @@
                 <div class="explanation-wrap-grd">
                     <div class="explanation-wrap">
                         <div class="exp-block--content-wrap">
-                            <h1 class="title--general add-mar">How It Works</h1>
-                            <h3 class="exp-block--sub">How It Works Subheader Placeholder</h3>
+                            <h1 class="title--general add-mar">Our Solutions</h1>
+                            <h3 class="exp-block--sub">How It Works</h3>
                             <div class="exp-block--content">
                                 <div class="exp-block--content-item">
                                     <p class="exp-block--content-image">
                                         <img src="../assets/triangle.png" class="exp-block--content-img" alt="">
                                     </p>
                                     <div class="exp-block--cont-cont">
-                                        <h3 class="exp-block--cont-sub">Placeholder Subheader for This Paragraph</h3>
-                                        <p class="exp-block--cont-text">Until recently, growth hacking has been almost exclusively available only to the biggest brands. We aim to change that.</p>
+                                        <h3 class="exp-block--cont-sub">The power in your hands</h3>
+                                        <p class="exp-block--cont-text">Until recently, growth hacking has been almost exclusively available only to the biggest brands. We aim to change that. We believe high level marketing should be accessible to anyone willing to invest in themselves.</p>
                                     </div>
                                 </div>
                                 <div class="exp-block--content-item">
@@ -130,8 +122,8 @@
                                         <img src="../assets/triangle.png" class="exp-block--content-img" alt="">
                                     </p>
                                     <div class="exp-block--cont-cont">
-                                        <h3 class="exp-block--cont-sub">Placeholder Subheader for This Paragraph</h3>
-                                        <p class="exp-block--cont-text">Until recently, growth hacking has been almost exclusively available only to the biggest brands. We aim to change that.</p>
+                                        <h3 class="exp-block--cont-sub">The power of AI</h3>
+                                        <p class="exp-block--cont-text">We analyze your profile/brand and your competitors, using your targeting requirements to determine your ideal engaged follower. We target these users through our own big data and machine learning solutions which is backed by Nvidia Inception, allowing us to classify data within different demographics.</p>
                                     </div>
                                 </div>
                                 <div class="exp-block--content-item">
@@ -139,8 +131,8 @@
                                         <img src="../assets/triangle.png" class="exp-block--content-img" alt="">
                                     </p>
                                     <div class="exp-block--cont-cont">
-                                        <h3 class="exp-block--cont-sub">Placeholder Subheader for This Paragraph</h3>
-                                        <p class="exp-block--cont-text">Until recently, growth hacking has been almost exclusively available only to the biggest brands. We aim to change that.</p>
+                                        <h3 class="exp-block--cont-sub">The power of data</h3>
+                                        <p class="exp-block--cont-text">We make use of data such as the kind of hashtags they like, the kind of hashtags they post, their location, the sentiment of their captions, their engagement ratio, their interests and their gender.</p>
                                     </div>
                                 </div>
                                 <div class="exp-block--content-item">
@@ -148,8 +140,8 @@
                                         <img src="../assets/triangle.png" class="exp-block--content-img" alt="">
                                     </p>
                                     <div class="exp-block--cont-cont">
-                                        <h3 class="exp-block--cont-sub">Placeholder Subheader for This Paragraph</h3>
-                                        <p class="exp-block--cont-text">Until recently, growth hacking has been almost exclusively available only to the biggest brands. We aim to change that.</p>
+                                        <h3 class="exp-block--cont-sub">The power of cloud</h3>
+                                        <p class="exp-block--cont-text">We have created a scalable architecture to support an infinite cloud of Instagram account automation within our engine, this allows us to create and grow networks of fanpage accounts to redirect traffic to your valuable main Instagram account while keeping it safe.</p>
                                     </div>
                                 </div>
                             </div>
@@ -270,36 +262,36 @@
                     <h1 class="main-faq--head">FAQ</h1>
                     <div class="main-faq--content-wrap">
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 1</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">Are the followers real?</p>
+                            <p class="main-faq--content-text">Yes. We built solutions for the growth of our own businesses and decided to sell it as a service.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 2</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">Is this safe?</p>
+                            <p class="main-faq--content-text">Yes. You're not doing anything directly on your own account, you're just building a network of accounts and redirecting the traffic.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 3</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">How many followers can I gain?</p>
+                            <p class="main-faq--content-text">Usually the main account receives ~5 followers per day per fanpage account with good content. This rate will increase as each fanpage account grows bigger.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 4</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">What's the limit?</p>
+                            <p class="main-faq--content-text">There's no limit. You can invest as much as you want to grow as many accounts in as many networks possible. Contact us for custom orders or any inquiries.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 5</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">Can I make money with this?</p>
+                            <p class="main-faq--content-text">If you decide to monetise. The higher the number of followers and engagement you have, the more value you will have to brands who are willing to pay for influencer marketing campaigns.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 6</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">How can I monetise my Instagram?</p>
+                            <p class="main-faq--content-text">We recommend to sign up to our partner, <a href="https://litty.vip">Litty</a>. Litty allows you to create your own profile to use as a landing page and upload content which can be sold individually or to monthly subscribers. It's completely free and they only take a 10% commission.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 7</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">Do you recommend any guides for Instagram?</p>
+                            <p class="main-faq--content-text">Yes, we have our own free guide available <a href="#">here</a>.</p>
                         </div>
                         <div class="main-faq--content">
-                            <p class="main-faq--content-head">Frequently asked question 8</p>
-                            <p class="main-faq--content-text">Placeholder text for frequently asked question this is a temporary paragraph that should be replaced with a valid answer to the question.</p>
+                            <p class="main-faq--content-head">Do you offer support?</p>
+                            <p class="main-faq--content-text">Yes, we offer 24/7 support. The reason for this is that we are a team stationed in different parts of the world – somebody is always around ready to help you.</p>
                         </div>
                     </div>
                 </div>
