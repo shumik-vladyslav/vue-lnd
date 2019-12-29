@@ -8,11 +8,11 @@
                 </p>
                 <div class="head--menu">
                     <ul class="head--menu-list">
-                        <li class="head--menu-list-item"><a href="#">Testimonials</a></li>
-                        <li class="head--menu-list-item"><a href="#">The process</a></li>
-                        <li class="head--menu-list-item"><a href="#">Pricing</a></li>
-                        <li class="head--menu-list-item"><a href="#">Contact us</a></li>
-                        <li class="head--menu-list-item"><a href="#">faq</a></li>
+                        <li class="head--menu-list-item"><a href="#testimonials">Testimonials</a></li>
+                        <li class="head--menu-list-item"><a href="#process">The process</a></li>
+                        <li class="head--menu-list-item"><a href="#pricing">Pricing</a></li>
+                        <li class="head--menu-list-item"><a href="#contact">Contact us</a></li>
+                        <li class="head--menu-list-item"><a href="#faq">faq</a></li>
                     </ul>
                 </div>
                 <button type="button" class="button-general header-button">GET STARTED</button>
@@ -48,7 +48,7 @@
 
             <div class="main-advantages-wrap">
                 <div class="main-advantages">
-                    <p class="feat-advantage"><img src="../assets/globeicon.png" alt="">UNITED KINGDOM<br>
+                    <p class="feat-advantage"><img class="special" src="../assets/globeicon.png" alt="">UNITED KINGDOM<br>
                         BASED AGENCY</p>
                     <p class="feat-advantage"><img src="../assets/handmoney.png" alt="">MONEY BACK<br>
                         GUARANTEED</p>
@@ -63,9 +63,8 @@
                 <div class="income-blocks--wrap">
                     <div class="income--void"></div>
                     <div class="income--content">
-                        <h1 class="title--general">Create New<br>
-                            Sources of Income</h1>
-                        <h2 class="income--content-sub">Leverage Your Following to<br>
+                        <h1 class="title--general">Create New Sources of Income</h1>
+                        <h2 class="income--content-sub">Leverage Your Following to
                             Earn More Money</h2>
                         <div class="income--cont-wrap">
                             <div class="income--cont-item">
@@ -101,7 +100,7 @@
                 </div>
             </div>
 
-            <div class="how-works--explanation-wrap">
+            <div class="how-works--explanation-wrap" id="process">
                 <div class="explanation-wrap-grd">
                     <div class="explanation-wrap">
                         <div class="exp-block--content-wrap">
@@ -157,7 +156,7 @@
                 </div>
             </div>
 
-            <div class="main-package-pricing--wrap">
+            <div class="main-package-pricing--wrap" id="pricing">
                 <h1 class="title--general">Packages & Pricing</h1>
                 <p class="main-package-sub">Choose one of our packages below to get your followers</p>
                 <div class="main-package-pricing--plans">
@@ -227,7 +226,7 @@
                 </div>
             </div>
 
-             <div class="client-testimonials--wrap">
+             <div class="client-testimonials--wrap" id="testimonials">
                 <div class="client-testimonials--wrapper">
                     <h1 class="title--general">Client Testimonials</h1>
                     <div class="client-testimonials--content">
@@ -257,7 +256,7 @@
                 </div>
             </div>
 
-            <div class="main-faq--wrap">
+            <div class="main-faq--wrap" id="faq">
                 <div class="main-faq--wrap-wrap">
                     <h1 class="main-faq--head">FAQ</h1>
                     <div class="main-faq--content-wrap">
@@ -297,7 +296,7 @@
                 </div>
             </div>
 
-            <div class="main-contactus--wrap">
+            <div class="main-contactus--wrap" id="contact">
                 <div class="main-contactus--wrapper">
                     <h1 class="contactus-header">Contact one of our team members</h1>
                     <p class="main-contactus--sub">Fill out the form below and we’ll get back to you shortly</p>
@@ -330,11 +329,11 @@
                 </p>
                 <div class="head--menu">
                     <ul class="head--menu-list foot-menu">
-                        <li class="head--menu-list-item"><a href="#">Testimonials</a></li>
-                        <li class="head--menu-list-item"><a href="#">The process</a></li>
-                        <li class="head--menu-list-item"><a href="#">Pricing</a></li>
-                        <li class="head--menu-list-item"><a href="#">Contact us</a></li>
-                        <li class="head--menu-list-item"><a href="#">faq</a></li>
+                        <li class="head--menu-list-item"><a href="#testimonials">Testimonials</a></li>
+                        <li class="head--menu-list-item"><a href="#process">The process</a></li>
+                        <li class="head--menu-list-item"><a href="#pricing">Pricing</a></li>
+                        <li class="head--menu-list-item"><a href="#contact">Contact us</a></li>
+                        <li class="head--menu-list-item"><a href="#faq">faq</a></li>
                     </ul>
                 </div>
                 <button type="button" class="button-general header-button footer-butt">BUILD YOUR BRAND</button>

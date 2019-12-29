@@ -290,7 +290,7 @@ header {
 .income--cont-item {
   display: flex;
   align-items: baseline;
-  margin-top: 85px;
+  margin-top: 44px;
 }
 .income--cont-cont {
   align-self: flex-start;
@@ -733,10 +733,25 @@ footer {
   margin-bottom: 79px;
 }
 
+.income--content .title--general {
+  max-width: 590px;
+}
+.income--content .income--content-sub {
+  max-width: 590px;
+}
+
 // media======================================================================================
 // media======================================================================================
 // media======================================================================================
 @media screen and (max-width: 1800px) {
+  .income--content .title--general {
+    max-width: 412px;
+    margin: 0 0 0 93px;
+  }
+  .income--content .income--content-sub {
+    max-width: 412px;
+    margin: 16px 0 0 93px;
+  }
   .head--content-wrap {
     margin: 0 auto;
     width: 90%;
@@ -952,6 +967,12 @@ footer {
   }
 }
 @media screen and (max-width: 1300px) {
+  .income--content .title--general {
+    margin: 0 0 0 70px;
+  }
+  .income--content .income--content-sub {
+    margin: 16px 0 0 70px;
+  }
   .income--cont-sub {
     font-size: 23px;
     max-width: 437px;
@@ -964,6 +985,9 @@ footer {
   }
   .income--content-img {
     width: 58px;
+  }
+  .income--cont-text {
+    max-width: 403px;
   }
   .income--content {
     min-width: 534px;
@@ -1298,15 +1322,23 @@ footer {
   .main-advantages {
     padding: 20px 0;
   }
-
+  .income--wrapper {
+    padding: 50px 10px;
+  }
   .income--cont-sub {
     font-size: 19px;
     max-width: 331px;
   }
   .income--cont-text {
-    max-width: 253px;
+    max-width: 370px;
     font-size: 16px;
     margin: 12px 0 0 0;
+  }
+  .income--content .title--general {
+    max-width: 340px;
+  }
+  .income--content .income--content-sub {
+    max-width: 340px;
   }
   .income--cont-item {
     margin-top: 18px;
@@ -1331,6 +1363,13 @@ footer {
   }
 }
 @media screen and (max-width: 768px) {
+  .income--content .title--general {
+    max-width: 261px;
+  }
+  .income--content .income--content-sub {
+    max-width: 261px;
+  }
+
   header {
     height: 460px;
   }
@@ -1366,16 +1405,22 @@ footer {
     margin: 19px 0 4px 0;
   }
 
-  .main-advantages {
-    max-width: 710px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
   .feat-advantage {
-    min-width: 250px;
-    margin: 5px 0;
+    font-size: 12px;
   }
+  .feat-advantage img {
+    width: 43px;
+  }
+  // .main-advantages {
+  //   max-width: 710px;
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  // }
+  // .feat-advantage {
+  //   min-width: 250px;
+  //   margin: 5px 0;
+  // }
 
   .contactus-header {
     font-size: 40px;
@@ -1396,7 +1441,7 @@ footer {
   .header-button {
     position: absolute;
     right: 0;
-    top: 100px;
+    top: 110px;
   }
   .head--content {
     z-index: 12;
@@ -1466,6 +1511,11 @@ footer {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 660px) {
+  header .title--general {
+    max-width: 390px;
+  }
+}
 @media screen and (max-width: 580px) {
   header {
     height: 386px;
@@ -1493,8 +1543,19 @@ footer {
     font-size: 12px;
     margin-bottom: 15px;
   }
+  // .feat-advantage {
+  //   min-width: 221px;
+  // }
   .feat-advantage {
-    min-width: 221px;
+    font-size: 10px;
+  }
+  .feat-advantage img {
+    width: 35px;
+    margin-right: 3px;
+  }
+  .main-advantages {
+    margin: 0 15px;
+    padding: 15px 0;
   }
 
   .income-butt {
@@ -1555,17 +1616,20 @@ footer {
   }
 
   .features--title {
+    font-size: 16px;
     margin: 13px 10px 0 10px;
     text-align: center;
     letter-spacing: 1px;
   }
   .features--brands {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
   }
   .feat-brand {
-    width: 150px;
+    max-width: 150px;
+    width: 100%;
+    margin: 0 5px 16px 5px;
   }
   .head--menu-list-item {
     margin-right: 11px;
@@ -1616,24 +1680,28 @@ footer {
   .income--content .title--general {
     line-height: 1;
     text-align: center;
+    margin: 0 auto 0 auto;
+    max-width: 310px;
   }
   .income--content .income--content-sub {
     text-align: center;
+    margin: 10px auto 0 auto;
+    max-width: 310px;
   }
   .income--content-img {
     width: 44px;
-    margin: 70px 0 0 0;
   }
   .income--cont-sub {
-    text-align: center;
-    margin-left: -54px;
+    text-align: initial;
+    margin-left: 0;
     max-width: 292px;
   }
   .income--cont-item {
     justify-content: center;
   }
   .income--cont-text {
-    margin: 12px 0 0 20px;
+    max-width: 330px;
+    margin: 12px 0 0 0;
   }
   .income-butt {
     display: block;
@@ -1675,8 +1743,33 @@ footer {
   .main-contactus--wrap {
     padding: 30px 15px;
   }
+
+  .feat-advantage {
+    font-size: 9px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    text-align: center;
+    margin-top: 45px;
+    justify-content: space-around;
+  }
+  .feat-advantage img.special {
+    margin: -50px 0 3px 0;
+  }
+  .feat-advantage img {
+    position: absolute;
+    margin: -43px 0 3px 0;
+  }
+  .main-advantages {
+    align-items: end;
+  }
 }
 @media screen and (max-width: 350px) {
+  .feat-advantage img.special {
+    margin: -50px 0 3px 0;
+  }
+
   header {
     min-height: 367px;
   }
@@ -1730,7 +1823,11 @@ footer {
     margin: 8px 0 0 0;
   }
   .income--cont-sub {
-    font-size: 13px;
+    font-size: 17px;
+    text-align: initial;
+    margin-left: 19px;
+    font-weight: bolder;
+    max-width: 292px;
   }
   .income--cont-text {
     margin: 8px 0 0 20px;
